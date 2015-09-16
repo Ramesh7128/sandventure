@@ -10,12 +10,12 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(1.2761, 103.85467), // 6th Ave, New York, NY 23458
+        center: new google.maps.LatLng(1.27942, 103.85418), // 6th Ave, New York, NY 23458
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
-        scrollwheel: false,
-        draggable: false,
+        scrollwheel: true,
+        draggable: true,
 
         // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
@@ -32,7 +32,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(1.2761, 103.85467); // 6th Ave, New York, NY 23458
+    var myLatLng = new google.maps.LatLng(1.27942, 103.85418); // 6th Ave, New York, NY 23458
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
