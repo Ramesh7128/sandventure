@@ -54,6 +54,7 @@ $('#clock').countdown('2016/05/22 10:00:00').on('update.countdown', function(eve
 // Load WOW.js on non-touch devices
 var isPhoneDevice = "ontouchstart" in document.documentElement;
 $(document).ready(function() {
+    
     if (isPhoneDevice) {
         //mobile
     } else {
