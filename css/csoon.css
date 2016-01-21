@@ -50,6 +50,7 @@ p {
     margin: 0 0 25px;
     font-size: 15px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 @media(min-width:768px) {
@@ -401,6 +402,15 @@ a.fa {
     padding-bottom: 15px;
 }
 
+#explore {
+    background: #fff;
+}
+#explore .icon {
+    font-size: 80px;
+    display: block;
+    padding-bottom: 15px;
+}
+
 /* Countdown */
 #clock {
     padding-bottom:20px;
@@ -533,4 +543,32 @@ section.demosection {
         animation-name: none !important;
         visibility: visible !important;
     }
+}
+
+
+#titletext {
+    font-size: 65px;
+}
+
+.imgcircleround {
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+}
+
+#services {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#contact {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#about p {
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
 }
