@@ -32,7 +32,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(1.27942, 103.85418); // 6th Ave, New York, NY 23458
+    var myLatLng = new google.maps.LatLng(1.2793984, 103.8431171); // 6th Ave, New York, NY 23458
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
