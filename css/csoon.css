@@ -573,7 +573,15 @@ section.demosection {
 
 }
 
+#services {
+    margin-top: 0px;
+    padding-top: 0px;
+}
 
-#stoxxlogo {
-    vertical-align: center;
+#about2 p {
+    text-align: left;
+}
+
+#about p {
+    padding-bottom: 20px; 
 }
