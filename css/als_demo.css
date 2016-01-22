@@ -63,3 +63,45 @@
 #demo3 .als-next {
 	right: 100px;
 }
+
+
+ 
+
+@media screen and (max-width: 600px) /* Mobile */ {
+  	#demo3 .als-item {
+		margin: 0px 10px;
+		padding: 4px 0px;
+		min-height: 50px;
+		min-width: 50px;
+		text-align: center;
+	}
+
+
+	#demo3 .als-prev {
+		left: 30px;
+	}
+
+	#demo3 .als-next {
+		right: 30px;
+	}
+}
+
+@media screen and (max-width: 600px) /* Mobile */ {
+  	#demo3 .als-item {
+		margin: 0px 10px;
+		padding: 4px 0px;
+		min-height: 50px;
+		min-width: 50px;
+		text-align: center;
+	}
+
+
+	#demo3 .als-prev {
+		left: 30px;
+	}
+
+	#demo3 .als-next {
+		right: 30px;
+	}
+}
+  	

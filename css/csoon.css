@@ -545,9 +545,11 @@ section.demosection {
     }
 }
 
-
+@media screen and (min-width: 980px){
 #titletext {
     font-size: 65px;
+}
+
 }
 
 .imgcircleround {
@@ -584,4 +586,4 @@ section.demosection {
 
 #about p {
     padding-bottom: 20px; 
-}
+}@media only screen and (max-device-width:580px){
